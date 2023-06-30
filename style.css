@@ -1,0 +1,243 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.navbar div {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.navbar button {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.main1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    /* border: 0.1rem solid black; */
+}
+
+.main1part1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    row-gap: 3rem;
+    column-gap: 3rem;
+    position: relative;
+    /* border: 0.1rem solid black; */
+}
+
+.main1part1 .main1part1sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 45rem;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 0.1rem solid lightgray;
+    background-color: rgb(243, 243, 243, 0.8);
+    border-radius: 1.5rem;
+}
+
+.main1part1 .main1part1sub input {
+    font-size: 2rem;
+}
+
+.main1part1 .main1part1sub button {
+    width: 13rem;
+    height: 4rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.main1part1 .main1part2sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 35rem;
+    padding: 1rem;
+    border: 0.1rem solid lightgray;
+    background-color: rgb(243, 243, 243, 0.8);
+    border-radius: 1.5rem;
+}
+
+.main1part1 .main1part2sub h1 {
+    font-size: 2.5rem;
+}
+
+.main1part1 .main1part2sub p {
+    font-size: 2.5rem;
+}
+
+.main1part1 .main1part2sub button {
+    width: 8rem;
+    height: 4rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.main1part1 .main1part3sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 45rem;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 0.1rem solid lightgray;
+    background-color: rgb(243, 243, 243, 0.8);
+    border-radius: 1.5rem;
+}
+
+.main1part1 .main1part3sub input {
+    font-size: 2rem;
+}
+
+.main1part1 .main1part3sub button {
+    width: 13rem;
+    height: 4rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.main1part2 {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    row-gap: 3rem;
+    column-gap: 22rem;
+    /* border: 0.1rem solid black; */
+}
+
+.main1part2 .accordion .accordion-item .accordion-header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(222, 184, 135, 0.8);
+    /* border: 0.1rem solid black; */
+}
+
+.main1part2 .accordion#accordion1 .accordion-item .accordion-header button {
+    font-size: 1.5rem;
+    background-color: rgb(222, 184, 135, 0.8);
+    /* border: 0.1rem solid black; */
+}
+
+.main1part2 .accordion#accordion1 .accordion-item .accordion-header button div {
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 500;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    /* border: 0.1rem solid black; */
+}
+
+.main1part2 .accordion#accordion1 .accordion-item .accordion-header button.btn-close {
+    font-size: 1.5rem;
+    padding-right: 3rem;
+    height: 5rem;
+}
+
+.main1part2 .accordion#accordion1 .accordion-item .accordion-collapse .accordion-body-table1 .accordion-body th {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.main1part2 .accordion#accordion1 .accordion-item .accordion-collapse .accordion-body-table1 .accordion-body td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.main1part2 .accordion#accordion2 .accordion-item .accordion-header button {
+    font-size: 1.5rem;
+    background-color: burlywood;
+    /* border: 0.1rem solid black; */
+}
+
+.main1part2 .accordion#accordion2 .accordion-item .accordion-header button div {
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 500;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    /* border: 0.1rem solid black; */
+}
+
+.main1part2 .accordion#accordion2 .accordion-item .accordion-header button.btn-close {
+    font-size: 1.5rem;
+    padding-right: 3rem;
+    height: 5rem;
+}
+
+.main1part2 .accordion#accordion2 .accordion-item .accordion-collapse .accordion-body-table2 .accordion-body th {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.main1part2 .accordion#accordion2 .accordion-item .accordion-collapse .accordion-body-table2 .accordion-body td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.main1part3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/879/416/original/planning-monthly-budget-for-shopping-and-purchase-manage-financial-plan-with-calculator-financial-consulting-software-banking-accounting-platform-illustration-of-website-banner-software-poster-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 95rem;
+    filter: blur(0.2rem);
+    width: 100%;
+    height: 90vh;
+    z-index: -1;
+    /* border: 0.1rem solid black; */
+}
